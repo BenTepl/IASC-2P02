@@ -1,2 +1,1 @@
-# IASC-2P02
-Class Projects
+# IASC-2P02 - Ben Teplicky
