@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+    color: whitesmoke;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+li {
+    font-size: 24px;
+    list-style: none;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+color: aqua;
+text-decoration: overline;
+}
+
+.danger {
+    color: red;
+}
+
+.danger:hover {
+    color: rgb(255, 122, 122);
+}
