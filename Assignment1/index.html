@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+         {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.182.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.182.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.21.0/dist/lil-gui.esm.js"
+
+            }
+        }
+  </script>
+
+  <!-- three.js scene -->
+   <script src="script.js" type="module"></script>
+
+</head>
+<body>
+    <div class="flexbox">
+        <!-- ESSAY -->
+         <div class="essay">
+            <h2>1. Flatness</h2>
+            <p><span class="clickable" id="part-one">From inside the cave...</span></p>
+
+            <p>The distortion of time is often one of the many punishing elements that go into designing a prison. 
+                A cave so dark that the only interaction with the outside world being a fire illuminating a wall, much like in Plato’s "Allegory of the Cave”, would no doubt follow this. 
+                Prisoners would be fast to develop some method of keeping track of time and sanity, one method would be returning to human instincts and relying on the sun when it was available.
+                 <span class="clickable" id="first-change">As the sun moves through the sky, the figure's size changes</span>. 
+                In any prison the presence of guards is another aspect of telling time, as many guards are unable to work indefinitely and will have to change hands at least once; 
+                allowing the prisoners another method of being able to tell time. <span class="clickable" id="second-change">Eventually the Guards change shifts</span>.</p>
+
+            <p>This limit on the prisoners’ perception of time is much like how Nick Sousanis’s concept of “Flatness” limits one’s world view. Flatness is a lack of depth when viewing an image or experiencing an experience, 
+                in order to experience flatness many details need to be uniformed within the given lack of depth. Flatness reminds me of a concept I learnt recently “cultural homogenization”: the reduction of cultural diversity. 
+                I feel that diversity can be very similar to saying a population has depth. A flat population would only be one group which much like flatness isn't necessarily bad but is definitely not the fullest view one could have, 
+                lacking the unique experiences of other cultures or having a third axis of view / movement. In the cave the prisoners experience a physical flatness through the cave wall and a more mental flatness through the lack of proper time perception. 
+                Firstly the cave wall is a flat world because it is lacking the “Z” axis and is in turn a 2D image. This impacts the prisoners and it could cause confusion as shadows move in that dimension or as the light source does, either growing or shrinking in relation. 
+                The second component is the lack of a time telling device becoming reliant on the sun and how it impacts the shadows on the wall,this lack of reliable time measurement also fits into flatness as time is proposed by many scholars as a possible 5th dimension.</p>
+
+            <h2>2. Seeing Double</h2>
+            <p><span class="clickable" id="part-two">From outside the cave...</span></p>
+
+            <p>From outside of the cave there are two guards who are standing guard over the prisoners inside. One of the duties of the guards is to bring the prisoners food, to the prisoners this is indistinguishable from the size change due to the sun, 
+                but from an outside perspective there is a noticeable difference. <span class="clickable" id="third-change">One of the Guards brings food and water to the cave for the prisoners</span>. The first guard forgot to have his morning coffee today and is rather sleepy, 
+                to the prisoners inside he appears to be rotating while he is just falling asleep then waking up and falling asleep again.  <span class="clickable" id="fourth-change">The first guard tries to fall asleep</span>.</p>
+
+            <p>Nick Sousani’s concept of seeing double to me is adding depth to a flat image. A good way to describe this is a Pla 3D printer, they work by building up layers to form a 3d shape. 
+                While a flat image would only have one layer and potentially be very confusing and non descriptive, when seeing double there can be hundreds of layers built to to help the output take its shape and appear as what it is designed to look like. 
+                Seeing double can also refer to thinking much like the saying “dont judge a book by its cover”. Flatness from the guise of a book could be seen as just getting information from the outer cover of the book, this might allow someone to anticipate what could happen in a given story it would severely limit their understanding. 
+                On the other hand seeing double is much more like reading the book, where you can gain a fuller understanding of the story and concept because of the added depth. The second scene demonstrates “Seeing Double” firstly through the use of the “Z” axis movements of the first guard. 
+                As stated previously the lack of depth can cause confusion as to what is happening when viewed from a fat world, when seeing double movements on this axis would be distinct and non-confusable with similar movements. The second use of seeing double is the distinction of the second guard, 
+                to the prisoners there is no proof that they are different as they are just silhouettes. From a double view it is clear that the guards are different as they are two different colors, color in this case is another aspect of depth that is added by seeing double since it is no longer viewed from just shadows. 
+                Color is a very necessary survival aspect where many animals have a heightened sense for colors like orange because of fire but limited sense for others such as dogs, this view would be a flatter one compared to a human’s increased view of the color spectrum.
+.</p>
+         </div>
+
+        <!-- SCENE -->
+         <div class="scene">
+            <canvas class="webgl"></canvas>
+         </div>
+    </div>
+</body>
