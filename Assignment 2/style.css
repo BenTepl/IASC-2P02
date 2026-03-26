@@ -1,0 +1,23 @@
+body {
+    background-color: tan;
+}
+
+h1{
+    color: red;
+    font-size:48px;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
